@@ -16,6 +16,8 @@
 		2792270A16818A9500198D14 /* shelley-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792270916818A9500198D14 /* shelley-head.png */; };
 		2792270C16818AED00198D14 /* shelley-avatar-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792270B16818AED00198D14 /* shelley-avatar-114x114.png */; };
 		2792270E16818EC900198D14 /* shelley-head-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792270D16818EC900198D14 /* shelley-head-72x72.png */; };
+		2792271016840CA900198D14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792270F16840CA900198D14 /* Default.png */; };
+		2792271216840E7E00198D14 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2792271116840E7E00198D14 /* Default-Portrait~ipad.png */; };
 		27E3A9BA1659C1E700443295 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E3A9B91659C1E700443295 /* MessageUI.framework */; };
 		27E3A9BD1659D5E600443295 /* EmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A9BC1659D5E600443295 /* EmailComposer.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
@@ -77,6 +79,8 @@
 		2792270916818A9500198D14 /* shelley-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelley-head.png"; sourceTree = "<group>"; };
 		2792270B16818AED00198D14 /* shelley-avatar-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelley-avatar-114x114.png"; sourceTree = "<group>"; };
 		2792270D16818EC900198D14 /* shelley-head-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelley-head-72x72.png"; sourceTree = "<group>"; };
+		2792270F16840CA900198D14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2792271116840E7E00198D14 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		27E3A9B91659C1E700443295 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		27E3A9BB1659D5E600443295 /* EmailComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailComposer.h; sourceTree = "<group>"; };
 		27E3A9BC1659D5E600443295 /* EmailComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailComposer.m; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				2792271116840E7E00198D14 /* Default-Portrait~ipad.png */,
+				2792270F16840CA900198D14 /* Default.png */,
 				2792270D16818EC900198D14 /* shelley-head-72x72.png */,
 				2792270B16818AED00198D14 /* shelley-avatar-114x114.png */,
 				2792270916818A9500198D14 /* shelley-head.png */,
@@ -399,6 +405,8 @@
 				2792270A16818A9500198D14 /* shelley-head.png in Resources */,
 				2792270C16818AED00198D14 /* shelley-avatar-114x114.png in Resources */,
 				2792270E16818EC900198D14 /* shelley-head-72x72.png in Resources */,
+				2792271016840CA900198D14 /* Default.png in Resources */,
+				2792271216840E7E00198D14 /* Default-Portrait~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

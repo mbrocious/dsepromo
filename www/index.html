@@ -17,7 +17,7 @@
 
             <script src="lib/email-composer/emailComposer.js"></script>
             
-            <script src="js/main.js"></script>
+            <script src="js/index.js"></script>
             
     </head>
     
@@ -28,8 +28,11 @@
             <div data-role="content" data-theme="d">
                 
                 <a data-theme="b" href="http://diversifiedsourcingent.espwebsite.com" target="_blank" rel="external" data-role="button" data-icon="star" class="button dsepromo">DSE Promotions LogoMall</a>
-                <a data-theme="b" href="tel:6109420142" data-role="button" data-icon="star" class="button call-shelley">Call Shelley</a>
-                <a data-theme="b" href="#" data-role="button" data-icon="star" class="button email">Email Shelley</a>
+                <a data-theme="b" href="tel:7044898827" data-role="button" data-icon="star" class="button call-shelley">Call DSE Promotions</a>
+                <!-- This works in the simulators (iPhone and iPad), but not on the real devices
+                <a data-theme="b" href="#" data-role="button" data-icon="star" class="button email">Send Email To DSE Promotions</a> 
+                -->
+                <a data-theme="b" href="mailto:shelley.oliver@dsepromotions.com" data-role="button" data-icon="star" class="button">Send Email to Shelley</a>
                 
                 <img src="img/shelley-avatar.jpg" class="avatar" />
                 
@@ -39,4 +42,7 @@
         
     </body>
     
+    <script type="text/javascript">
+    app.initialize();
+    </script>
 </html>
